@@ -4,5 +4,5 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  return badge_maker(attendees[1])
+  return badge_maker(attendees|i|)
 end
